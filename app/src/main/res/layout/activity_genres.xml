@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mainLayoutMaring"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/menuBurgerWidth"
+            android:layout_height="@dimen/menuBurgerHeight"
+            android:layout_margin="@dimen/menuBurgerMargin"
+            android:src="@drawable/threelinesmenu" />
+
+        <TextView
+            android:id="@+id/textViewGenres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/paddingRight"
+            android:paddingRight="@dimen/paddingRight"
+            android:paddingTop="@dimen/paddingTop"
+            android:text="@string/genres"
+            android:textColor="@color/colorAlbumName"
+            android:textSize="@dimen/textArtistName" />
+
+        <ImageView
+            android:id="@+id/search_tool2"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="@dimen/left_margin_x"
+            android:layout_marginTop="@dimen/top_margin_x"
+            android:src="@drawable/search_icon" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/genres_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+</LinearLayout>

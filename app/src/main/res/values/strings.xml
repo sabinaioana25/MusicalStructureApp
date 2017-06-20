@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Overlook\'d</string>
+    <string name="title_activity_genres">GenresActivity</string>
+    <string name="button_to_next_screen">Login</string>
+    <string name="helloooooooooooooooo">Helloooooooooooooooo!</string>
+    <string name="this_is_the_play_page">this is the play page</string>
+    <string name="artistLabel">Artist</string>
+    <string name="artist">Artist</string>
+    <string name="artistName">David Bowie</string>
+    <string name="albumsLabel">Albums</string>
+    <string name="genresLabel">Genres</string>
+    <string name="searchLabel">Search for artist</string>
+    <string name="playLabel">Play song</string>
+    <string name="genres">Genres</string>
+    <string name="albums">Search</string>
+    <string name="play_artist">play artist</string>
+    <string name="facebook">facebook</string>
+    <string name="username">username</string>
+    <string name="explore">explore</string>
+    <string name="song_name">South horizon</string>
+    <string name="album_name">The Buddha of Suburbia</string>
+    <string name="or">or</string>
+    <string name="play">Play</string>
+    <string name="search">Search</string>
+    <string name="album">Albums</string>
+    <string name="password">password</string>
+    <string name="descrp_main_screen"> This activity shows the home screen of the app, appearing as
+        the start screen. There are two EditText boxes in which the user enters their username and
+        password and by pressing on the button, they are directed to the next screen. Above the fill in boxes
+        and the login button, there is he logo of the app, which currently has no function.</string>
+    <string name="descrp_2nd_screen">This activity shows the user the possibility of either searching for
+        his/her favourite artists or exploring different types of music. Later, additional to the existing
+        buttons, there would be two more buttons added for the user, for them to access their saved albums or playlists.</string>
+    <string name="descrp_genres_screen">This activity shows all the genres displayed in no particular order, that the user can choose
+        from, displayed through a ListView with data populated using an Adapter. By clicking on each type of music, the app takes the
+        user further to a list of artists or bands, displayed in no particular order. </string>
+    <string name="description_screen1">This activity shows the home screen of the app, appearing as the start screen. There are two EditText boxes in which the user enters their username and password and by pressing on the button, they are directed to the next screen. Above the fill in boxes and the login button, there is he logo of the app, which currently has no function.</string>
+    <string name="description_screen2">This activity shows the user the possibility of either searching for his/her favourite artists or exploring different types of music. Later, additional to the existing buttons, there would be two more buttons added for the user, for them to access their saved albums or playlists.</string>
+    <string name="description_screen3">This activity shows all the genres displayed in no particular order, that the user can choose from, displayed through a ListView with data populated using an Adapter. By clicking on each type of music, the app takes the user further to a list of artists or bands, displayed in no particular order.</string>
+    <string name="description_screen4">The Artists screen display almost all most know artists or bands belonging with a certain genre, under the shape of a ListView. For the purposes of the project, only the option ‘David Bowie’ can be selected and further show the late artist’s albums; but the app should allow the user to scroll through a large number of bands and be able to play their albums. The artists would be displayed using an ArrayAdapter.</string>
+    <string name="description_screen5">The albums shown on this screen are sorted based on their low popularity; the app will take this information from the international world music charts and will select the songs and the albums that were least known or listened to. By clicking on the pink play arrow, the screen changes into the main play screen and the user can start listening to the album.</string>
+    <string name="description_screen6">The activity is the media player interface for songs. It has an upper bar containing a burger menu, the name of the singer or band and a search icon which, once clicked, takes the user back to the search screen. Lower, there is an ImageView of the album, the name of the song and below, of the album. Instead of implementing a seekbar and play buttons, I imported the assets created in Adobe XD. The play screen should have these implemented, so the user can play/pause a song, skip forward or backward or go back to search another singer.</string>
+</resources>

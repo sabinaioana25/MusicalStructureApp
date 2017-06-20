@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_new"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mainLayoutMaring"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/menuBurgerWidth"
+                android:layout_height="@dimen/menuBurgerHeight"
+                android:layout_margin="@dimen/menuBurgerMargin"
+                android:src="@drawable/threelinesmenu" />
+
+            <TextView
+                android:id="@+id/textViewArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:gravity="center"
+                android:paddingRight="@dimen/paddingRight"
+                android:paddingTop="@dimen/paddingTop"
+                android:text="@string/artistName"
+                android:textColor="@color/colorAlbumName"
+                android:textSize="@dimen/textArtistName" />
+
+            <ImageView
+                android:id="@+id/search_tool1"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="@dimen/left_margin_x"
+                android:layout_marginTop="@dimen/top_margin_x"
+                android:src="@drawable/search_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/layout5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewDavidBowie"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_play_image"
+                android:paddingLeft="@dimen/left_padding_main_image"
+                android:src="@drawable/path_07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song_name"
+                android:textColor="@color/colorText"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:text="@string/album_name"
+                android:textColor="@color/colorText"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginTop="72dp"
+                android:src="@drawable/progress_bar" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/play_button" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

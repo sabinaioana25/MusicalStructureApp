@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundPrimary"
+    tools:context="com.example.android.musicalstructureapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="72dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/logo2" />
+
+        <RelativeLayout
+            android:id="@+id/textFields"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/explore_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:text="@string/explore" />
+
+            <TextView
+                android:id="@+id/orTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/explore_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:text="@string/or"
+                android:textColor="@color/colorText"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="242dp"
+                android:layout_height="34dp"
+                android:layout_below="@id/orTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorAlbumName"
+                android:gravity="center"
+                android:hint="@string/artist"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/albums_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search"
+                android:layout_centerHorizontal="true"
+                android:text="@string/albums" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

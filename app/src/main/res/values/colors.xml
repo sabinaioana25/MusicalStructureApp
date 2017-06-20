@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#F9F9F9</color>
+    <color name="facebookButton">#3A5897</color>
+    <color name="twitterButton">#42C6F3</color>
+    <color name="backgroundPrimary">#000202</color>
+    <color name="colorFirstButtons">#20465B</color>
+    <color name="colorSearchBar">#171818</color>
+    <color name="colorStartPlay">#DB1E83</color>
+    <color name="colorAlbumName">#FFF9F9</color>
+    <color name="loginEditText">#512DA8</color>
+</resources>
