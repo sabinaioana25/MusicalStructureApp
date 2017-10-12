@@ -31,5 +31,7 @@ class CustomAdapter extends ArrayAdapter<String> {
         textViewGenre.setText(singleGenreItem);
         musicBoxView.setImageResource(R.drawable.music_box);
         return customView;
+
+
     }
 }
