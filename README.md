@@ -6,8 +6,8 @@ It's the forth project completed for the Android Basics Nanodegree program offer
 Create the design of a music application which allows the user listen to listen mainly to underrated music and artists.
 In the most recent portion of the Nanodegree program, I learned how to think about the structure of an app and how to use OnClickListeners and explicit Intents to link between different activities within my own app. Practicing these skills will drastically improve the quality of the apps I build down the road.
 
-![](screenshot_1.png) ![](screenshot_2.png) 
-![](screenshot_3.png) ![](screenshot_4.png)
+![](LogInScreen.png) ![](MainScreen.png) 
+![](DetailScreen.png)
 
 # Pre-requisites
 -	Android SDK v22
